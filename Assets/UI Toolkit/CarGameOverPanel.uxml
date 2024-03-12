@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/stylecss.uss?fileID=7433441132597879392&amp;guid=06f8bc84c75cd9146ae1616269ab3a95&amp;type=3#stylecss" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-self: center; height: 287px; width: 437px;">
+        <ui:Label tabindex="-1" text="Congratulation " parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 55px; color: rgb(229, 137, 1); height: 110px; -unity-text-align: middle-center;" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-btn" class="Button" />
+        <ui:Button text="High Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="high-score-btn" class="Button" />
+        <ui:Button text="New Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="new-game-btn" class="Button" />
+    </ui:VisualElement>
+</ui:UXML>

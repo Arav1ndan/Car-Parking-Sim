@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/stylecss.uss?fileID=7433441132597879392&amp;guid=06f8bc84c75cd9146ae1616269ab3a95&amp;type=3#stylecss" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-self: center;">
+        <ui:Label tabindex="-1" text="Next level" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 30px; justify-content: center; align-self: center; height: 54px; width: 190px; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+        <ui:Button text="Next Level" parse-escape-sequences="true" display-tooltip-when-elided="true" name="next-btn" enable-rich-text="true" class="Button" />
+        <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main-btn" class="Button" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-btn" class="Button" />
+    </ui:VisualElement>
+</ui:UXML>

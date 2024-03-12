@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/stylecss.uss?fileID=7433441132597879392&amp;guid=06f8bc84c75cd9146ae1616269ab3a95&amp;type=3#stylecss" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-self: center;">
+        <ui:Label tabindex="-1" text="Game Over" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="-unity-text-align: middle-center; justify-content: center; align-self: center; font-size: 30px; height: 80px; width: 208px; color: rgb(120, 0, 0);" />
+        <ui:Button text="Play Again" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play-again-btn" class="Button" style="-unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); font-size: 16px;" />
+        <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main-menu-btn" class="Button" style="font-size: 15px; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); height: 37px; width: 206px;" />
+    </ui:VisualElement>
+</ui:UXML>

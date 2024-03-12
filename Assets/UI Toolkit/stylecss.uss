@@ -1,0 +1,11 @@
+.Button {
+    color: rgb(108, 78, 195);
+    -unity-text-outline-color: rgba(248, 39, 39, 0);
+}
+
+.Button:hover.green {
+}
+
+.Button:hover.black {
+    background-image: none;
+}
